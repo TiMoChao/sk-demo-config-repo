@@ -46,9 +46,10 @@ http:
 mysql:
   host: 127.0.0.1
   port: 3306
-  user: root
+  user: timorchao
   pwd: lcAImama123!!!
-  db: sk-admin
+  db: seckill
+#  db: sk-admin
 
 trace:
   host: 127.0.0.1
