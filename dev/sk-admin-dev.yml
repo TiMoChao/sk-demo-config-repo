@@ -21,9 +21,9 @@ service:
   SendToHandleChanTimeout: 1000
   TokenPassWd: go
 redis:
-  host: localhost
-  password: 6378
-  db: 0
+  host: 127.0.0.1:6379
+#  password: 6378
+  db: 1
   proxy2layer_queue_name: name
   ip_black_list_hash: 12
   id_black_list_queue: 12
@@ -33,17 +33,17 @@ etcd:
   product_key: zxfyazzaa
 
 http:
-  host: localhost
+  host: 127.0.0.1
 
 mysql:
-  host: 114.67.98.210
-  port: 3396
+  host: 127.0.0.1
+  port: 3306
   user: root
-  pwd: root_test
+  pwd: lcAImama123!!!
   db: sk-admin
 
 trace:
-  host: 114.67.98.210
+  host: 127.0.0.1
   port: 9411
   url: /api/v2/spans
 
